@@ -542,6 +542,7 @@ img {
 
 .foot-form {
   display: flex;
+  gap: 24px;
 }
 
 .foot-input {
