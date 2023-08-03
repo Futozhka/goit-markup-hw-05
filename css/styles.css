@@ -747,6 +747,11 @@ img {
   fill: var(--iris-color); 
 }
 
+.modal-checkbox-input:checked + .checkbox-span-svg .checkbox-label-span {
+  border: none;
+  background-color: var(--ocean-color);
+  fill: var(--cloud-color);
+}
 
 .modal {
   position: absolute;
