@@ -738,7 +738,7 @@ img {
 }
 
 .modal-input:focus + .modal-input-svg svg {
-  fill: #4D5AE5; 
+  fill: var(--iris-color); 
 }
 
 
