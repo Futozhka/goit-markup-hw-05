@@ -748,10 +748,12 @@ img {
 .checkbox-label-span {
   border: none;
   background-color: var(--ocean-color);
+  border: 1px solid rgba(46, 47, 66, 0.4); 
+  fill: var(--iris-color)
 }
 
 .modal-checkbox-input:checked + .checkbox-label-span svg {
-  fill: var(--iris-color);
+  fill: var(--cloud-color);
 }
 
 .modal {
