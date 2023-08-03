@@ -750,12 +750,19 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-.modal-checkbox-input:checked + .checkbox-label-span svg {
-  fill: var(--cloud-color);
-  border: none;
-  background-color: var(--ocean-color);
+.modal-checkbox-input:checked + .modal-checkbox-label .checkbox-label-span {
+  background-color: #404bbf;
 }
 
+
+.modal-checkbox-input:checked + .modal-checkbox-label .checkbox-span-svg {
+  border: none;
+}
+
+
+.modal-checkbox-input:checked + .modal-checkbox-label .checkbox-span-svg {
+  fill: #F4F4FD;
+}
 .modal {
   position: absolute;
   top: 50%;
