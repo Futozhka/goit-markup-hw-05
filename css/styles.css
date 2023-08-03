@@ -741,14 +741,17 @@ img {
   fill: var(--gray-color);
 }
 
-.modal-input:focus + .modal-input-svg use {
+.modal-input:focus + .modal-input-svg svg {
   fill: var(--iris-color); 
 }
 
-.modal-checkbox-input:checked + .checkbox-label-span svg {
+.checkbox-label-span {
   border: none;
   background-color: var(--ocean-color);
-  fill: var(--cloud-color);
+}
+
+.modal-checkbox-input:checked + .checkbox-label-span svg {
+  fill: var(--iris-color);
 }
 
 .modal {
