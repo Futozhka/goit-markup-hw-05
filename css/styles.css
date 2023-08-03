@@ -739,12 +739,12 @@ img {
 
 .modal-checkbox-input:checked + .modal-checkbox-label .checkbox-span-svg {
   border: none;
-  fill: var(--F4F4FD); 
+  fill: var(--cloud-color); 
 }
 
 
 .modal-checkbox-input:checked + .modal-checkbox-label .checkbox-label-span {
-  background-color: #404bbf;
+  background-color: var(--ocean-color);
 }
 
 
