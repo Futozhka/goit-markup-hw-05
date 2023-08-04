@@ -754,6 +754,8 @@ img {
 
 .modal-checkbox-input:checked + .modal-checkbox-label .checkbox-label-span {
   background-color: var(--ocean-color);
+  border: none;
+  fill: var(--cloud-color);
 }
 
 .checkbox-label-span {
