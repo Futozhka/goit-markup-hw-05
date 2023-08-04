@@ -644,6 +644,7 @@ img {
   line-height: 14px;
   letter-spacing: 0.48px;
   color: var(--light-slate-color);
+  line-height: 1.17;
 
 }
 
