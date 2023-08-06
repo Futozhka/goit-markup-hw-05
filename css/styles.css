@@ -175,7 +175,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--navy-blue-modal-color);
+  color: var(--navy-blue-modal-color); 
   padding: 24px 0;
   display: block;
   position: relative;
@@ -194,6 +194,7 @@ img {
   background-color:var(--ocean-color);
   border-radius: 2px;
   width: 100%;
+  color:  var(--ocean-color);
 }
 
 .list-one:hover,
@@ -423,10 +424,6 @@ img {
 
 
 
-.list-four{
-  background-color: var(--white-color);
-
-}
 
 .section-five {
   padding-top: 120px;
