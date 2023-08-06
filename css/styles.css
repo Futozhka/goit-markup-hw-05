@@ -778,15 +778,16 @@ img {
 
 
 
-.modal-checkbox-input:checked + .modal-checkbox-label .checkbox-span-svg {
-  border: none;
-  fill: var(--cloud-color); 
-}
+
 
 .modal-checkbox-input:checked + .modal-checkbox-label .checkbox-label-span {
   background-color: var(--ocean-color);
-  border: none;
+  border: none; 
   fill: var(--cloud-color);
+}
+
+.modal-checkbox-input:focus + .modal-checkbox-label .checkbox-label-span {
+  border-color: var(--ocean-color);
 }
 
 .modal-checkbox-input {
